@@ -28,9 +28,7 @@ drawpad.grid(row=0, column=1)
 houseoutline = drawpad.create_rectangle(230,170,470,450, fill = 'red')
 
 # This is the code for the roof of my house
-houseroofline1 = drawpad.create_line(230,170,350,100)
-houseroofline2 = drawpad.create_line(350,100,470,170)
-
+houseroof = drawpad.create_polygon(230,170,350,100,470,170, fill = 'black')
 
 # This is the code for my windows
 window1 = drawpad.create_rectangle(265,200,325,260, fill = 'white')
@@ -45,9 +43,7 @@ frontdoor = drawpad.create_rectangle(325,370,375,450, fill = 'brown')
 doorhandle = drawpad.create_rectangle(363,405,368,405, fill = 'black')
 
 # This is the code for my chimney
-chimneyrightside = drawpad.create_line(470,170,470,100)
-chimneytop = drawpad.create_line(470,100,440,100)
-chimneyleftside = drawpad.create_line(440,100,440,153)
+chimney = drawpad.create_polygon(470,170,470,100,440,100,440,153, fill = 'burlywood4')
 
 # This is the code for my green grass
 grass = drawpad.create_rectangle(0,450,800,600, fill = 'dark green')
