@@ -49,6 +49,8 @@ chimneyrightside = drawpad.create_line(470,170,470,100)
 chimneytop = drawpad.create_line(470,100,440,100)
 chimneyleftside = drawpad.create_line(440,100,440,153)
 
+# This is the code for my green grass
+grass = drawpad.create_rectangle(0,450,800,600, fill = 'dark green')
 
 
 root.mainloop()
