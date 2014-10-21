@@ -24,5 +24,25 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 
+# This is the code for the outline and color of the house
+houseoutline = drawpad.create_rectangle(230,170,470,450, fill = 'red')
+
+# This is the code for the roof of my house
+houseroofline1 = drawpad.create_line(230,170,350,100)
+houseroofline2 = drawpad.create_line(350,100,470,170)
+
+
+# This is the code for my windows
+window1 = drawpad.create_rectangle(265,200,325,260, fill = 'white')
+window2 = drawpad.create_rectangle(375,200,435,260, fill = 'white')
+window3 = drawpad.create_rectangle(265,290,325,350, fill = 'white')
+window4 = drawpad.create_rectangle(375,290,435,350, fill = 'white')
+
+# This is the code for my door
+frontdoor = drawpad.create_rectangle(325,370,375,450, fill = 'brown')
+
+# This is code for my doorhandle
+dooehandle
+
 
 root.mainloop()
