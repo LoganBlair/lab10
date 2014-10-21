@@ -42,7 +42,13 @@ window4 = drawpad.create_rectangle(375,290,435,350, fill = 'white')
 frontdoor = drawpad.create_rectangle(325,370,375,450, fill = 'brown')
 
 # This is code for my doorhandle
-dooehandle
+doorhandle = drawpad.create_rectangle(363,405,368,405, fill = 'black')
+
+# This is the code for my chimney
+chimneyrightside = drawpad.create_line(470,170,470,100)
+chimneytop = drawpad.create_line(470,100,440,100)
+chimneyleftside = drawpad.create_line(440,100,440,153)
+
 
 
 root.mainloop()
