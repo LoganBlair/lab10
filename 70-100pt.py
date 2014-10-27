@@ -36,6 +36,7 @@ window2 = drawpad.create_rectangle(375,200,435,260, fill = 'white')
 window3 = drawpad.create_rectangle(265,290,325,350, fill = 'white')
 window4 = drawpad.create_rectangle(375,290,435,350, fill = 'white')
 
+
 # This is the code for my door
 frontdoor = drawpad.create_rectangle(325,370,375,450, fill = 'brown')
 
